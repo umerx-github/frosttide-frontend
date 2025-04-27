@@ -1,9 +1,10 @@
 import "./App.css";
+import AccountsList from "./components/AccountsList";
 
 function App() {
 	return (
 		<>
-			<h1>Hello world</h1>
+			<AccountsList />
 		</>
 	);
 }

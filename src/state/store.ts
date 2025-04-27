@@ -1,9 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import eventIdReducer from "./slices/eventIdSlice";
+import accountsReducer from "./slices/accountsSlice";
 
 const store = configureStore({
 	reducer: {
-		event: eventIdReducer,
+		accounts: accountsReducer,
 	},
 });
 
